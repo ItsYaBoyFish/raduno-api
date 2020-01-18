@@ -1,0 +1,31 @@
+{
+  "name": "raduno-api",
+  "version": "1.0.0",
+  "description": "API for Raduno",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ItsYaBoyFish/raduno-api.git"
+  },
+  "keywords": [
+    "API"
+  ],
+  "author": "Austin Graves",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ItsYaBoyFish/raduno-api/issues"
+  },
+  "homepage": "https://github.com/ItsYaBoyFish/raduno-api#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.7",
+    "express": "^4.17.1",
+    "install": "^0.13.0",
+    "mysql2": "^2.1.0",
+    "npm": "^6.13.6",
+    "sequelize": "^5.21.3"
+  }
+}
